@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem -Path \"c:\\\\Users\\\\richa\\\\Desktop\\\\ovystar-web\" -Recurse -Force | Sort-Object FullName | Select-Object @{Name='Path';Expression={$_.FullName.Replace\\('c:\\\\Users\\\\richa\\\\Desktop\\\\ovystar-web\\\\', ''\\)}})"
+    ]
+  }
+}
